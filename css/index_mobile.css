@@ -1,0 +1,161 @@
+@charset "utf8";
+@media screen and (max-width:481px){
+	body{
+		background-image: url(../images/bg_dot_gr.png);
+		background-color: rgba(206, 239, 246, 0.36);
+	}
+	header{
+		overflow: hidden;
+		background-color: white;
+		width: 100%;
+	}
+	header h1{
+		padding: 2px;
+		margin-left: 3px;
+	}
+	header #left_h1{
+		width:300px;	
+	}
+	header nav li{
+		width: 100%;
+		background-color:rgb(34, 200, 178);
+	    border: solid black 2px;
+	    text-align: center;
+	    margin-bottom: 3px;
+	}
+	header nav li a{
+	    display: block;
+	    color: white;
+	    padding: 6%;
+	    text-decoration: none;
+	}
+	header nav li a:hover{
+	    font-weight: bold;
+	    color: black;
+	}
+
+	header #right_nav{
+		display: none;
+		background-color: red;
+	}
+
+
+	#contents{
+		width: 100%;
+	}
+	#left{
+		border:solid 1px black;
+		width: 100%;
+	}
+	#left img{
+		max-width: 100%;
+	}
+
+	#left_sub #bar_info #new{
+		width:416px;
+		float: left;
+	}   
+	#left_sub ul{
+		display: none;
+	}
+	#right{
+		display: none;
+	}
+	#radiko img{
+		padding-top: 20px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	#sub_contents{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	#bar_info{
+		margin-top:25px;
+		background-color: white;
+		width: 100%;
+		border:solid 1px black;
+		margin-bottom: 30px;
+	    overflow: hidden;
+	}
+	#bar_info img{
+	    max-width: 100%;
+	    
+	}
+
+	#bar_info span{
+		position: relative;
+		bottom: 30px;
+		left:-15px;
+		font-size: 11px;
+		font-weight: bold;
+	}
+	#bar_info ul{
+		display: none;
+	}
+
+	#news{
+		width: 100%;
+		background-color: white;
+		border:solid 1px black;
+	}
+
+	#news #image{
+		padding: 15px;
+		background-color: #E0F8F7;
+		border-bottom:8px dotted #F08080; 
+
+	}
+	#news #image img{
+		max-width: 100%;
+	}
+	#news p{
+		border-bottom:1px dotted #888;
+		line-height: 30px;
+		padding-left: 3px;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	#bana{
+		display: none;
+	}
+	footer{
+		background-color: white;
+		width: 100%;
+		overflow: hidden;
+	}
+	footer #footer_left{
+		width: 30%;
+		float: left;
+		margin-left: 2%;
+	}
+	footer #footer_left img{
+		max-width: 100%;
+		margin-top: 50px;
+	}
+	footer #footer_right{
+		width: 60%;
+		float: right;
+		line-height: 30px;
+		margin-right: 5%;
+		font-size: 10px;
+	}
+	footer #footer_right h2{
+		padding: 2%;
+		color: #F08080;
+		font-size: 15px;
+		text-align: center;
+	}
+	footer span{
+		clear: both;
+		background-color: #aaa;
+		padding: 8px;
+		display: block;
+		color: blue;
+		text-align: center;
+		font-weight: bold;
+		font-size:13px;
+	}
+}
